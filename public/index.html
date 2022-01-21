@@ -5,46 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Abbreve</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/AvatarMaker.png">
+    <title>Where to find Njong</title>
 </head>
 <body class="bg-purple-500">
+    
     <div class="container mt-10 grid justify-center">
         
+        
         <div class="card p-12 shadow-lg">
-            <div class="image w-32 h-32 mx-auto">
-                <img src="/public/images/AvatarMaker.png" alt="" class="rounded-full">
-            </div>
+            
+                <div class="image w-32 h-32 mx-auto transform hover:scale-110">
+                    <img src="/public/images/AvatarMaker.png" alt="" class="rounded-full" id="image">
+             
+                </div>
+        
             <br>
 
             <div class="main">
                 <div class="text-center">
                     <blockquote class="italic">"What we think, we become"</blockquote>
-                    <p class="text-center font-bold" id="author">Buddha</p>
+                    <p class="text-center text-white font-bold" id="author">Buddha</p>
                 </div>
 
                 <br><br>
     
-                <div class="logos flex w-60 space-x-10 mx-auto">
-                    <a href="https://github.com/Njong392"><img src="/public/images/github-big-logo.png" alt=""></a>
-                    <a href=""><img src="/public/images/linkedin (2).png" alt=""></a>
-                    <a href=""><img src="/public/images/twitter.png" alt=""></a>
-                    <a href=""><img src="/public/images/gmail-logo.png" alt=""></a>
+                <div class="logos flex w-44 space-x-10 mx-auto">
+                    <a href="https://github.com/Njong392"><img src="/public/images/github-big-logo.png" alt="" class="transform hover:scale-125"></a>
+                    <a href="https://www.linkedin.com/in/njong-emy-729764207/"><img src="/public/images/linkedin (2).png" alt="" class="transform hover:scale-125"></a>
+                    <a href="https://twitter.com/afumbom_bingeh"><img src="/public/images/twitter.png" alt="" class="transform hover:scale-125"></a>
+  
                 </div>
 
                 <br>
                 <div>
-                    <a href=""><button class="buttons rounded-full text-white font-bold bg-purple-500 px-28 py-4">Hashnode blog</button></a>
+                    <a href="https://bingehtheblogger.hashnode.dev/"><button class="buttons rounded-full text-white font-bold bg-purple-500 px-28 py-4 hover:shadow-lg transform hover:scale-110" id="button1">Hashnode blog</button></a>
                     <br><br>
-                    <a href=""><button class="buttons rounded-full text-white font-bold bg-purple-500 py-4 px-24">Freecodecamp blog</button></a>
+                    <a href="https://www.freecodecamp.org/news/author/afumbom_bingeh/"><button class="buttons rounded-full text-white font-bold bg-purple-500 py-4 px-24 hover:shadow-lg transform hover:scale-110">Freecodecamp blog</button></a>
                     
                     </div>
 
                 
             </div>
+
             
             
         </div>
+
     </div>
+
+    
 
     <script type="module" src="https://unpkg.com/rough-notation?module"></script>
     <script  type="module" src="sandbox.js"></script>
